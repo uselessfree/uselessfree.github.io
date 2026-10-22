@@ -1,0 +1,359 @@
+[
+  {
+    "symbol": "INTC",
+    "time": "12:58:53",
+    "structure": "看涨价差",
+    "rows": [
+      {
+        "option_code": "US.INTC280616C80000",
+        "symbol": "INTC",
+        "fill_time": "2026-10-20 12:58:53",
+        "fill_timestamp": 1792515533.0,
+        "ticker_type": "BUY",
+        "price": 35.08,
+        "volume": 23500,
+        "turnover": 82438000.0,
+        "option_type": "CALL",
+        "strike_price": 80.0,
+        "strike_time": "2028-06-16",
+        "underlying_price": 92.69,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 23500,
+        "total_open_interest": 9186
+      },
+      {
+        "option_code": "US.INTC280616C135000",
+        "symbol": "INTC",
+        "fill_time": "2026-10-20 12:58:53",
+        "fill_timestamp": 1792515533.0,
+        "ticker_type": "SELL",
+        "price": 18.13,
+        "volume": 23500,
+        "turnover": 42605500.0,
+        "option_type": "CALL",
+        "strike_price": 135.0,
+        "strike_time": "2028-06-16",
+        "underlying_price": 92.69,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 23500,
+        "total_open_interest": 21
+      }
+    ],
+    "sample_n": 198,
+    "sample_start": "2026-10-08 12:50:03",
+    "sample_end": "2026-10-20 15:59:06",
+    "leave_one_out_sample_mean_multiples": [
+      32.12911202906342,
+      15.391991212854432
+    ]
+  },
+  {
+    "symbol": "AMZN",
+    "time": "10:44:17",
+    "structure": "看跌Call价差",
+    "rows": [
+      {
+        "option_code": "US.AMZN261030C265000",
+        "symbol": "AMZN",
+        "fill_time": "2026-10-20 10:44:17",
+        "fill_timestamp": 1792507457.0,
+        "ticker_type": "SELL",
+        "price": 9.22,
+        "volume": 16908,
+        "turnover": 15589176.0,
+        "option_type": "CALL",
+        "strike_price": 265.0,
+        "strike_time": "2026-10-30",
+        "underlying_price": 264.04,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 18425,
+        "total_open_interest": 22880
+      },
+      {
+        "option_code": "US.AMZN261030C280000",
+        "symbol": "AMZN",
+        "fill_time": "2026-10-20 10:44:17",
+        "fill_timestamp": 1792507457.0,
+        "ticker_type": "BUY",
+        "price": 3.78,
+        "volume": 16908,
+        "turnover": 6391224.0,
+        "option_type": "CALL",
+        "strike_price": 280.0,
+        "strike_time": "2026-10-30",
+        "underlying_price": 264.04,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 18007,
+        "total_open_interest": 47059
+      }
+    ],
+    "sample_n": 198,
+    "sample_start": "2026-09-28 14:54:16",
+    "sample_end": "2026-10-20 15:45:23",
+    "leave_one_out_sample_mean_multiples": [
+      8.190497896703285,
+      3.277526069405256
+    ]
+  },
+  {
+    "symbol": "CRWV",
+    "time": "11:54:47",
+    "structure": "Call日历价差",
+    "rows": [
+      {
+        "option_code": "US.CRWV261030C65000",
+        "symbol": "CRWV",
+        "fill_time": "2026-10-20 11:54:47",
+        "fill_timestamp": 1792511687.0,
+        "ticker_type": "SELL",
+        "price": 3.05,
+        "volume": 2500,
+        "turnover": 762500.0,
+        "option_type": "CALL",
+        "strike_price": 65.0,
+        "strike_time": "2026-10-30",
+        "underlying_price": 62.395,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 7127,
+        "total_open_interest": 5286
+      },
+      {
+        "option_code": "US.CRWV261113C65000",
+        "symbol": "CRWV",
+        "fill_time": "2026-10-20 11:54:47",
+        "fill_timestamp": 1792511687.0,
+        "ticker_type": "BUY",
+        "price": 5.65,
+        "volume": 2500,
+        "turnover": 1412500.0,
+        "option_type": "CALL",
+        "strike_price": 65.0,
+        "strike_time": "2026-11-13",
+        "underlying_price": 62.4,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 2766,
+        "total_open_interest": 940
+      }
+    ],
+    "sample_n": 198,
+    "sample_start": "2026-10-14 09:34:51",
+    "sample_end": "2026-10-20 15:54:10",
+    "leave_one_out_sample_mean_multiples": [
+      0.5971709302236086,
+      1.1091006788116657
+    ]
+  },
+  {
+    "symbol": "NBIS",
+    "time": "10:25:01",
+    "structure": "防御性风险逆转",
+    "rows": [
+      {
+        "option_code": "US.NBIS261120C230000",
+        "symbol": "NBIS",
+        "fill_time": "2026-10-20 10:25:01",
+        "fill_timestamp": 1792506301.0,
+        "ticker_type": "SELL",
+        "price": 3.84,
+        "volume": 1870,
+        "turnover": 718080.0,
+        "option_type": "CALL",
+        "strike_price": 230.0,
+        "strike_time": "2026-11-20",
+        "underlying_price": 170.94,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 2927,
+        "total_open_interest": 6693
+      },
+      {
+        "option_code": "US.NBIS261120P150000",
+        "symbol": "NBIS",
+        "fill_time": "2026-10-20 10:25:01",
+        "fill_timestamp": 1792506301.0,
+        "ticker_type": "BUY",
+        "price": 9.14,
+        "volume": 1870,
+        "turnover": 1709180.0,
+        "option_type": "PUT",
+        "strike_price": 150.0,
+        "strike_time": "2026-11-20",
+        "underlying_price": 170.94,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 2369,
+        "total_open_interest": 9099
+      }
+    ],
+    "sample_n": 200,
+    "sample_start": "2026-03-03 13:33:30",
+    "sample_end": "2026-10-20 10:25:01",
+    "leave_one_out_sample_mean_multiples": [
+      0.10659419918038594,
+      0.25390411440231936
+    ]
+  },
+  {
+    "symbol": "NFLX",
+    "time": "14:10:47",
+    "structure": "买入宽跨式",
+    "rows": [
+      {
+        "option_code": "US.NFLX261120P63000",
+        "symbol": "NFLX",
+        "fill_time": "2026-10-20 14:10:47",
+        "fill_timestamp": 1792519847.0,
+        "ticker_type": "BUY",
+        "price": 1.26,
+        "volume": 1200,
+        "turnover": 151200.0,
+        "option_type": "PUT",
+        "strike_price": 63.0,
+        "strike_time": "2026-11-20",
+        "underlying_price": 69.345,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 1694,
+        "total_open_interest": 214
+      },
+      {
+        "option_code": "US.NFLX261120C77000",
+        "symbol": "NFLX",
+        "fill_time": "2026-10-20 14:10:47",
+        "fill_timestamp": 1792519847.0,
+        "ticker_type": "BUY",
+        "price": 1.33,
+        "volume": 1200,
+        "turnover": 159600.0,
+        "option_type": "CALL",
+        "strike_price": 77.0,
+        "strike_time": "2026-11-20",
+        "underlying_price": 69.345,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 1510,
+        "total_open_interest": 218
+      }
+    ],
+    "sample_n": 200,
+    "sample_start": "2026-08-27 13:05:02",
+    "sample_end": "2026-10-20 15:57:42",
+    "leave_one_out_sample_mean_multiples": [
+      0.12048663356714653,
+      0.12718461350175972
+    ]
+  },
+  {
+    "symbol": "CRWV",
+    "time": "12:51:40",
+    "structure": "跨期双Call卖出",
+    "rows": [
+      {
+        "option_code": "US.CRWV270917C80000",
+        "symbol": "CRWV",
+        "fill_time": "2026-10-20 12:51:40",
+        "fill_timestamp": 1792515100.0,
+        "ticker_type": "SELL",
+        "price": 14.87,
+        "volume": 10000,
+        "turnover": 14870000.0,
+        "option_type": "CALL",
+        "strike_price": 80.0,
+        "strike_time": "2027-09-17",
+        "underlying_price": 62.79,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 10042,
+        "total_open_interest": 556
+      },
+      {
+        "option_code": "US.CRWV280121C150000",
+        "symbol": "CRWV",
+        "fill_time": "2026-10-20 12:51:40",
+        "fill_timestamp": 1792515100.0,
+        "ticker_type": "SELL",
+        "price": 6.77,
+        "volume": 10000,
+        "turnover": 6770000.0,
+        "option_type": "CALL",
+        "strike_price": 150.0,
+        "strike_time": "2028-01-21",
+        "underlying_price": 62.79,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 10024,
+        "total_open_interest": 30780
+      }
+    ],
+    "sample_n": 198,
+    "sample_start": "2026-10-14 09:34:51",
+    "sample_end": "2026-10-20 15:54:10",
+    "leave_one_out_sample_mean_multiples": [
+      12.337769402857504,
+      5.431822142408824
+    ]
+  },
+  {
+    "symbol": "TSLA",
+    "time": "10:09:23",
+    "structure": "单腿：卖深度实值Put",
+    "rows": [
+      {
+        "option_code": "US.TSLA280121P600000",
+        "symbol": "TSLA",
+        "fill_time": "2026-10-20 10:09:23",
+        "fill_timestamp": 1792505363.0,
+        "ticker_type": "SELL",
+        "price": 234.0,
+        "volume": 1250,
+        "turnover": 29250000.0,
+        "option_type": "PUT",
+        "strike_price": 600.0,
+        "strike_time": "2028-01-21",
+        "underlying_price": 372.365,
+        "strategy_type": "SINGLE_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 1250,
+        "total_open_interest": 2039
+      }
+    ],
+    "sample_n": 200,
+    "sample_start": "2026-08-24 11:41:16",
+    "sample_end": "2026-10-20 15:08:02",
+    "leave_one_out_sample_mean_multiples": [
+      11.75721744993216
+    ]
+  }
+]

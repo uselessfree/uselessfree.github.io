@@ -1,0 +1,41 @@
+{
+  "provider": "TradingView original stock heatmap",
+  "source_url": "https://www.tradingview.com/heatmap/stock/",
+  "export": "native Share > Download image",
+  "pixels": [
+    2560,
+    1520
+  ],
+  "captured_at": "2026-10-22T11:39:55+08:00",
+  "trade_day_cross_check": "2026-10-21",
+  "logo_setting": false,
+  "title_setting": "Symbol",
+  "display_value": "Change 1D, %",
+  "block_size": "Market cap",
+  "grouping": "Sector",
+  "watermark_preserved": true,
+  "date_note": "Original site shows snapshot generation time, not explicit trading date. Five changes cross-checked against archived regular-close snapshot.",
+  "matched_changes": {
+    "NVDA": 2.54,
+    "GOOGL": -1.62,
+    "META": 0.47,
+    "TSLA": 3.41,
+    "AMZN": -0.1
+  },
+  "limitation": "Some medium/small blocks show change without symbol; no custom font-size setting exposed.",
+  "report_display": {
+    "file": "tradingview-text-mode-cropped.png",
+    "crop_box": [
+      0,
+      118,
+      2560,
+      1440
+    ],
+    "pixels": [
+      2560,
+      1322
+    ],
+    "resampled": false,
+    "full_original_retained": true
+  }
+}

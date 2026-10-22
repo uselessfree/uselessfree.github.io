@@ -1,0 +1,37 @@
+{
+  "version": "close-review-v3",
+  "generated_at": "2026-10-21T06:10:09.602816+00:00",
+  "template_version": "concise-market-attention-v3",
+  "trade_day": "2026-10-20",
+  "image": "market-board.png",
+  "new_snapshot_times": [
+    "2026-10-21T03:14:22.672022+00:00",
+    "2026-10-21T03:16:07.800669+00:00",
+    "2026-10-21T03:18:54.343879+00:00",
+    "2026-10-21T03:21:08.844597+00:00"
+  ],
+  "generation": "当前Codex会话直接综合；图像为Pillow按平台数值绘制，非AI绘数",
+  "full_library_scan": false,
+  "new_event_layer": false,
+  "option_symbols_read": 510,
+  "option_day_rows": 664,
+  "wechat_window_records": 223,
+  "wechat_text_candidates": 65,
+  "used_new_news_ids": [
+    "news:63d543f1698c3069b931e9b2",
+    "news:82b05774da96b653a331477b",
+    "news:c6f19f3f167cd892d177f7e4",
+    "news:94102a4e89eea945649e9c0a",
+    "news:18f0e37a3ab1f1694097890e",
+    "news:d4d457e41d0158960be47b0e",
+    "news:058a1f705dfed8dec8770acf",
+    "news:354e9a5e042118d3d5ecf0d3"
+  ],
+  "reused_v1": true,
+  "production_writes": {
+    "selected_option_records": 7,
+    "other_business_records": 0
+  },
+  "model_cost_tokens_latency": "未测；未另行调用生产模型入口",
+  "scope": "常规收盘榜与盘后变化独立；新闻汇总补充10月20日白天的重要事实"
+}

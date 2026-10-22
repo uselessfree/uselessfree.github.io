@@ -1,0 +1,51 @@
+{
+  "checks": {
+    "local_links": true,
+    "trade_day": true,
+    "sector_coverage": true,
+    "rank_scope_disjoint": true,
+    "ranking_count": true,
+    "option_members": true,
+    "option_trade_dates": true,
+    "option_amounts": true,
+    "selected_curves": true,
+    "curve_dates": true,
+    "curve_finite": true,
+    "prediction_cutoff": true,
+    "archive_rows": true,
+    "archive_idempotent": true,
+    "yesterday_unchanged": true,
+    "automatic_amount_order": true,
+    "nbis_selected": true,
+    "no_manual_selections": true,
+    "news_count": true,
+    "parameters_folded": true,
+    "btc_fixed": true
+  },
+  "errors": [],
+  "manual_checks": [
+    "180K科技日报与北美小结均实际提取，不将截图中早段TSLA/IBM盘后涨幅沿用到最后",
+    "180K群聊Meta判断与融资PDF条款分开，未声称已完成融资",
+    "109页Meta法律文件仅重点核对前12页，未宣称通读全部附件",
+    "2030FY与路透两篇公众号正文已读；旧10月14日VicTalk排除",
+    "国债平台官方日频与新闻尾盘数值分开",
+    "行情图无纳指综合/道指，SP500榜排除NQ100成员",
+    "本期12条新闻不靠常规弱数据凑数；NewsNow仅为补漏",
+    "AXON比率1:5按各腿真实张数计算PL"
+  ],
+  "snapshot_at": "2026-10-22T01:47:56.296423+00:00",
+  "sizes": {
+    "discovery.json": 1591957,
+    "content.json": 247125,
+    "options.json": 436223,
+    "report.html": 159304,
+    "sources.html": 278494
+  },
+  "production_archive_new_records": 6,
+  "production_read_review_changes": 0,
+  "new_scheduler": false,
+  "model_tokens_cost": "未测；未另行调用模型入口",
+  "pdf_text_extraction": "本地PDFKit/Vision；科技日报1页扫描、融资文件109页有文字；北美小结2张图按需OCR",
+  "market_png_visual": "已检查2200×1650行情图，无裁切，新增BTC，图中仅保留数值/标题",
+  "html_browser_visual": "已验收日报及全屏阅读；本轮自动筛选表另作核对"
+}

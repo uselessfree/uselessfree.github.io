@@ -1,0 +1,268 @@
+{
+  "market_path": {
+    "high_vs_previous_pct": 0.6463051933196073,
+    "high_to_close_pct": -0.6649888495499079,
+    "close_pct": -0.02298151369993784,
+    "note": "日高相对昨收、日高至收盘；无逐条新闻发布时点的因果归因"
+  },
+  "predictions_at_cutoff": {
+    "10月不变": {
+      "at": 1792540831.0,
+      "value": 86.5
+    },
+    "12月加息25bp": {
+      "at": 1792540836.0,
+      "value": 77.5
+    }
+  },
+  "session_quotes": {
+    "SPCX": {
+      "regular": {
+        "symbol": "SPCX",
+        "name": "SpaceX",
+        "price": 147.79,
+        "change_pct": -0.11489591781563835,
+        "daily_change_pct": -0.11489591781563835,
+        "reference_close": 147.96,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:13:46.764000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.SPCX",
+        "source": "moomoo OpenD",
+        "market_cap": 1948135258071.55,
+        "turnover": 17453041018.0,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      },
+      "after": {
+        "symbol": "SPCX",
+        "name": "SpaceX",
+        "price": 159.7045,
+        "change_pct": 8.061,
+        "daily_change_pct": -0.11489591781563835,
+        "reference_close": 147.79,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:13:46.764000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.SPCX",
+        "source": "moomoo OpenD",
+        "market_cap": 1948135258071.55,
+        "turnover": null,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      }
+    },
+    "SMCI": {
+      "regular": {
+        "symbol": "SMCI",
+        "name": "Super Micro Computer",
+        "price": 32.47,
+        "change_pct": 1.1526479750778806,
+        "daily_change_pct": 1.1526479750778806,
+        "reference_close": 32.1,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:13:41.409000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.SMCI",
+        "source": "moomoo OpenD",
+        "market_cap": 21331666018.48,
+        "turnover": 1413335175.0,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      },
+      "after": {
+        "symbol": "SMCI",
+        "name": "Super Micro Computer",
+        "price": 37.5497,
+        "change_pct": 15.644,
+        "daily_change_pct": 1.1526479750778806,
+        "reference_close": 32.47,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:13:41.409000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.SMCI",
+        "source": "moomoo OpenD",
+        "market_cap": 21331666018.48,
+        "turnover": null,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      }
+    },
+    "CRWV": {
+      "regular": {
+        "symbol": "CRWV",
+        "name": "CoreWeave",
+        "price": 62.13,
+        "change_pct": 1.652486910994777,
+        "daily_change_pct": 1.652486910994777,
+        "reference_close": 61.12,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:12:56.599000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.CRWV",
+        "source": "moomoo OpenD",
+        "market_cap": 34266969082.26,
+        "turnover": 5832095515.0,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      },
+      "after": {
+        "symbol": "CRWV",
+        "name": "CoreWeave",
+        "price": 65.0,
+        "change_pct": 4.619,
+        "daily_change_pct": 1.652486910994777,
+        "reference_close": 62.13,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:12:56.599000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.CRWV",
+        "source": "moomoo OpenD",
+        "market_cap": 34266969082.26,
+        "turnover": null,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      }
+    },
+    "NBIS": {
+      "regular": {
+        "symbol": "NBIS",
+        "name": "NEBIUS",
+        "price": 171.45,
+        "change_pct": 0.7107612781954709,
+        "daily_change_pct": 0.7107612781954709,
+        "reference_close": 170.24,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:13:47.389000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.NBIS",
+        "source": "moomoo OpenD",
+        "market_cap": 46609577126.1,
+        "turnover": 3829295770.0,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      },
+      "after": {
+        "symbol": "NBIS",
+        "name": "NEBIUS",
+        "price": 180.7,
+        "change_pct": 5.395,
+        "daily_change_pct": 0.7107612781954709,
+        "reference_close": 171.45,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:13:47.389000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.NBIS",
+        "source": "moomoo OpenD",
+        "market_cap": 46609577126.1,
+        "turnover": null,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      }
+    },
+    "NFLX": {
+      "regular": {
+        "symbol": "NFLX",
+        "name": "Netflix",
+        "price": 68.69,
+        "change_pct": -1.6607015032211847,
+        "daily_change_pct": -1.6607015032211847,
+        "reference_close": 69.85,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:14:14.617000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.NFLX",
+        "source": "moomoo OpenD",
+        "market_cap": 286021016344.44,
+        "turnover": 4582567794.0,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      },
+      "after": {
+        "symbol": "NFLX",
+        "name": "Netflix",
+        "price": 64.7185,
+        "change_pct": -5.781,
+        "daily_change_pct": -1.6607015032211847,
+        "reference_close": 68.69000000000001,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:14:14.617000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.NFLX",
+        "source": "moomoo OpenD",
+        "market_cap": 286021016344.44,
+        "turnover": null,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      }
+    },
+    "META": {
+      "regular": {
+        "symbol": "META",
+        "name": "Meta Platforms",
+        "price": 694.25,
+        "change_pct": -1.586244046269003,
+        "daily_change_pct": -1.586244046269003,
+        "reference_close": 705.44,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:14:04.908000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.META",
+        "source": "moomoo OpenD",
+        "market_cap": 1768606196706.25,
+        "turnover": 11776468838.0,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      },
+      "after": {
+        "symbol": "META",
+        "name": "Meta Platforms",
+        "price": 694.9995,
+        "change_pct": 0.107,
+        "daily_change_pct": -1.586244046269003,
+        "reference_close": 694.25,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:14:04.908000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.META",
+        "source": "moomoo OpenD",
+        "market_cap": 1768606196706.25,
+        "turnover": null,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      }
+    },
+    "TSLA": {
+      "regular": {
+        "symbol": "TSLA",
+        "name": "Tesla",
+        "price": 373.71,
+        "change_pct": 1.5350758028582323,
+        "daily_change_pct": 1.5350758028582323,
+        "reference_close": 368.06,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:14:14.458000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.TSLA",
+        "source": "moomoo OpenD",
+        "market_cap": 1477174785477.63,
+        "turnover": 11989268093.0,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      },
+      "after": {
+        "symbol": "TSLA",
+        "name": "Tesla",
+        "price": 380.45,
+        "change_pct": 1.803,
+        "daily_change_pct": 1.5350758028582323,
+        "reference_close": 373.71,
+        "session_date": "2026-10-20",
+        "source_at": "2026-10-20T23:14:14.458000-04:00",
+        "quote_at": null,
+        "provider_symbol": "US.TSLA",
+        "source": "moomoo OpenD",
+        "market_cap": 1477174785477.63,
+        "turnover": null,
+        "timestamp_note": "源时间为证券快照更新时间；接口未提供分时段最后成交时间；时段日期按交易日历归属"
+      }
+    }
+  },
+  "ranking_coverage": {
+    "sp500": {
+      "valid": 417,
+      "members": 417
+    },
+    "nt100": {
+      "valid": 101,
+      "members": 101
+    }
+  }
+}

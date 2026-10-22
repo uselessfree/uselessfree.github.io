@@ -1,0 +1,72 @@
+{
+  "version": "v3",
+  "checks": {
+    "links_valid": true,
+    "no_dow_in_editorial": true,
+    "sp500_coverage": true,
+    "nq100_coverage": true,
+    "regular_rankings": true,
+    "no_cross_session_ranking": true,
+    "amounts_verified": true,
+    "option_only_trade_day": true,
+    "prediction_pre_cutoff": true,
+    "option_members_only": true,
+    "combination_amounts": true,
+    "sample_multiples": true,
+    "news_at_least_10": true,
+    "reading_time": true,
+    "editorial_labels": true,
+    "ranking_disjoint": true,
+    "no_composite_in_board": true,
+    "eleven_sectors": true,
+    "archive_records": true,
+    "archive_idempotency": true,
+    "fixed_close_lines": true
+  },
+  "link_errors": [],
+  "manual_fact_checks": [
+    "主要指数与宏观数值来自平台日线/行情缓存，而非新闻内旧价格；Gold与WTI前结算字段单列不算缺失日变动",
+    "NQ100优先，SP500排除全部NQ100成分后有效417/417；按同交易日、正价格及基准一致性校验，各取上涨5和下跌5",
+    "股指日高与收盘的回吐计算，不当作单条消息发布前后的精确因果幅度",
+    "SPCX/CRWV/NBIS/SMCI/NFLX全部采用平台10月20日盘后栏，变化相对常规收盘",
+    "Polymarket概率采用截止08:30前最后历史点，实际为08:00附近；不使用11:14当前值冒充隔夜",
+    "期权成交金额抽查合约价×张数×100，单位USD；只显示原始买卖标记，开平未知，多腿不拆方向",
+    "DeepSeek政策7月签发先前已生效、本周公开；新闻增量为公开信息和中方回应",
+    "国家数据集团采用平台国资委公告转述，未补证券代码；DeepInfer采用平台彭博正文",
+    "推荐阅读每份一句导读，来源为原有长文/投研/转写；无须凑来源配额"
+  ],
+  "selection_method": {
+    "scope": "本期资讯时间窗＋10月20日白天重大补漏",
+    "first_pass": "标题、主体、已有摘要、版本与来源元数据",
+    "second_pass": "重点变化/关注标的/催化剂/反证定向补漏，同源去重",
+    "deep_read": "少量选中正文，复用v1已核对摘要与OCR",
+    "wechat": "223条元数据；65条有界文字/附件描述候选，未全量识图或重读附件",
+    "options": "518个成分标的中510份已有缓存，提取664条当日异动腿；不新增采集、不分析完整期权链"
+  },
+  "image_visual_review": "2200×1980 PNG包含四个主要指数、11行业ETF代理与去重后的四组Top5，已复核",
+  "option_v3": {
+    "members": 518,
+    "caches": 510,
+    "day_legs": 664,
+    "extraction_seconds": 2.835127125028521,
+    "full_trade_mean": "未测；缺少全量逐笔笔数，仅计算已筛异动样本均值倍数",
+    "reading_time": "按已存正文粗估并以5或10分钟显示，非实测"
+  },
+  "production_writes": {
+    "selected_option_records": 7,
+    "existing_read_review_changes": 0
+  },
+  "model_cost_tokens_latency": "未测；未另行调用生产模型入口",
+  "hashes": {
+    "report.html": "c7b737ccec8fe65dfc74f4e63df1cb48e419a3f36a97933b650830d37c160c2b",
+    "market-board.png": "15433c5d4a2d03ba8acd4b5b2824d8a6562a6b0062ce8efe36142ad988ba4c91",
+    "market-board-data.json": "2d77315980fe95b80abe6235c221a3a8f11a05c7df9b1d8708e7b7ae97aab095",
+    "option-flow-selected.json": "089c2049e311e9e96907397318a17c9aabca94013706a77a0d71a9ac211ce827",
+    "v2-derived.json": "d487819478feef83f02393eff59a7d6ffcbfd664d003ee59b196cc9309ef6305",
+    "v2-sources.html": "69499eb576457665ace4d97ec65bb5e6f293fcdc46e60bd6fe66f289aa649790",
+    "manifest.json": "7aeca9c2c38864e9bfe1e8fe55434792e64af979e88b4c39d61a439d8e306b29",
+    "option-structures-v3.json": "954462ef825b988cb47ebe09c9a46e798aba045272c63c97ec4d1d44f6b955a8",
+    "v3-options.json": "1b890636e834e3ad8409713f210462524a621a73f951390a91d8688ef1b7a412",
+    "option-pl-curves.json": "49cc64103fe3832bbe27dcff8ad6c0cc510785f9a1e112b8dead04aba0594df1"
+  }
+}

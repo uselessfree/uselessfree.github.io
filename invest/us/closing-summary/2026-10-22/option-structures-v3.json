@@ -1,0 +1,493 @@
+[
+  {
+    "symbol": "META",
+    "time": "10:45:27",
+    "structure": "多腿片段：买Call",
+    "rows": [
+      {
+        "option_code": "US.META270115C750000",
+        "symbol": "META",
+        "fill_time": "2026-10-21 10:45:27",
+        "fill_timestamp": 1792593927.0,
+        "ticker_type": "BUY",
+        "price": 38.85,
+        "volume": 4000,
+        "turnover": 15540000.0,
+        "option_type": "CALL",
+        "strike_price": 750.0,
+        "strike_time": "2027-01-15",
+        "underlying_price": 709.4308,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "FLOOR"
+        ],
+        "total_volume": 4223,
+        "total_open_interest": 248271,
+        "iv": 38.215
+      }
+    ],
+    "sample_n": 200,
+    "sample_start": "2026-07-16 11:15:25",
+    "sample_end": "2026-10-21 15:54:37",
+    "leave_one_out_sample_mean_multiples": [
+      0.9049096465336469
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 15540000.0,
+    "gross_amount": 15540000.0,
+    "grouping": "same_second_MULTI_LEG_inference"
+  },
+  {
+    "symbol": "ARM",
+    "time": "11:26:13",
+    "structure": "买入跨式组合（推断）",
+    "rows": [
+      {
+        "option_code": "US.ARM280121P290000",
+        "symbol": "ARM",
+        "fill_time": "2026-10-21 11:26:13",
+        "fill_timestamp": 1792596373.0,
+        "ticker_type": "BUY",
+        "price": 100.29,
+        "volume": 1000,
+        "turnover": 10029000.0,
+        "option_type": "PUT",
+        "strike_price": 290.0,
+        "strike_time": "2028-01-21",
+        "underlying_price": 223.02,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 1023,
+        "total_open_interest": 1265,
+        "iv": 62.187
+      },
+      {
+        "option_code": "US.ARM280121C290000",
+        "symbol": "ARM",
+        "fill_time": "2026-10-21 11:26:13",
+        "fill_timestamp": 1792596373.0,
+        "ticker_type": "BUY",
+        "price": 47.61,
+        "volume": 1000,
+        "turnover": 4761000.0,
+        "option_type": "CALL",
+        "strike_price": 290.0,
+        "strike_time": "2028-01-21",
+        "underlying_price": 223.02,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 1000,
+        "total_open_interest": 201,
+        "iv": 64.418
+      }
+    ],
+    "sample_n": 200,
+    "sample_start": "2026-08-20 10:03:31",
+    "sample_end": "2026-10-21 11:53:36",
+    "leave_one_out_sample_mean_multiples": [
+      4.7628682408361875,
+      2.232971668720175
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 14790000.0,
+    "gross_amount": 14790000.0,
+    "grouping": "same_second_MULTI_LEG_inference"
+  },
+  {
+    "symbol": "DAL",
+    "time": "12:41:23",
+    "structure": "双Call买入（可见两腿）",
+    "rows": [
+      {
+        "option_code": "US.DAL261218C95000",
+        "symbol": "DAL",
+        "fill_time": "2026-10-21 12:41:23",
+        "fill_timestamp": 1792600883.0,
+        "ticker_type": "BUY",
+        "price": 0.51,
+        "volume": 52337,
+        "turnover": 2669187.0,
+        "option_type": "CALL",
+        "strike_price": 95.0,
+        "strike_time": "2026-12-18",
+        "underlying_price": 78.76,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "FLOOR"
+        ],
+        "total_volume": 52339,
+        "total_open_interest": 2748,
+        "iv": 34.068
+      },
+      {
+        "option_code": "US.DAL261218C87500",
+        "symbol": "DAL",
+        "fill_time": "2026-10-21 12:41:23",
+        "fill_timestamp": 1792600883.0,
+        "ticker_type": "BUY",
+        "price": 1.66,
+        "volume": 52337,
+        "turnover": 8687942.0,
+        "option_type": "CALL",
+        "strike_price": 87.5,
+        "strike_time": "2026-12-18",
+        "underlying_price": 78.775,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "FLOOR"
+        ],
+        "total_volume": 52345,
+        "total_open_interest": 645,
+        "iv": 34.995
+      }
+    ],
+    "sample_n": 85,
+    "sample_start": "2025-12-09 13:52:27",
+    "sample_end": "2026-10-21 15:42:57",
+    "leave_one_out_sample_mean_multiples": [
+      3.1437084596815206,
+      11.17556828835986
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 11357129.0,
+    "gross_amount": 11357129.0,
+    "grouping": "same_second_MULTI_LEG_inference"
+  },
+  {
+    "symbol": "SPCX",
+    "time": "12:06:52",
+    "structure": "单腿买Call",
+    "rows": [
+      {
+        "option_code": "US.SPCX270416C215000",
+        "symbol": "SPCX",
+        "fill_time": "2026-10-21 12:06:52",
+        "fill_timestamp": 1792598812.0,
+        "ticker_type": "BUY",
+        "price": 8.75,
+        "volume": 12000,
+        "turnover": 10500000.0,
+        "option_type": "CALL",
+        "strike_price": 215.0,
+        "strike_time": "2027-04-16",
+        "underlying_price": 163.06,
+        "strategy_type": "SINGLE_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 12004,
+        "total_open_interest": 10,
+        "iv": 48.391
+      }
+    ],
+    "sample_n": 200,
+    "sample_start": "2026-10-08 13:07:24",
+    "sample_end": "2026-10-21 15:57:07",
+    "leave_one_out_sample_mean_multiples": [
+      6.849591978214187
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 10500000.0,
+    "gross_amount": 10500000.0,
+    "grouping": "source_single_or_fragment"
+  },
+  {
+    "symbol": "TSLA",
+    "time": "12:55:31",
+    "structure": "单腿卖Call",
+    "rows": [
+      {
+        "option_code": "US.TSLA270416C370000",
+        "symbol": "TSLA",
+        "fill_time": "2026-10-21 12:55:31",
+        "fill_timestamp": 1792601731.0,
+        "ticker_type": "SELL",
+        "price": 58.992986069,
+        "volume": 1651,
+        "turnover": 9739742.0,
+        "option_type": "CALL",
+        "strike_price": 370.0,
+        "strike_time": "2027-04-16",
+        "underlying_price": 387.59,
+        "strategy_type": "SINGLE_LEG",
+        "order_type_list": [
+          "SWEEP",
+          "NORMAL"
+        ],
+        "total_volume": 5226,
+        "total_open_interest": 143,
+        "iv": 43.501
+      }
+    ],
+    "sample_n": 200,
+    "sample_start": "2026-09-04 14:09:15",
+    "sample_end": "2026-10-21 15:59:10",
+    "leave_one_out_sample_mean_multiples": [
+      3.720022467591623
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 9739742.0,
+    "gross_amount": 9739742.0,
+    "grouping": "source_single_or_fragment"
+  },
+  {
+    "symbol": "CRWV",
+    "time": "13:13:55",
+    "structure": "单腿买Call",
+    "rows": [
+      {
+        "option_code": "US.CRWV270319C85000",
+        "symbol": "CRWV",
+        "fill_time": "2026-10-21 13:13:55",
+        "fill_timestamp": 1792602835.0,
+        "ticker_type": "BUY",
+        "price": 6.8,
+        "volume": 14322,
+        "turnover": 9738960.0,
+        "option_type": "CALL",
+        "strike_price": 85.0,
+        "strike_time": "2027-03-19",
+        "underlying_price": 61.92,
+        "strategy_type": "SINGLE_LEG",
+        "order_type_list": [
+          "FLOOR"
+        ],
+        "total_volume": 15472,
+        "total_open_interest": 1649,
+        "iv": 84.003
+      }
+    ],
+    "sample_n": 198,
+    "sample_start": "2026-10-14 10:39:21",
+    "sample_end": "2026-10-21 15:55:34",
+    "leave_one_out_sample_mean_multiples": [
+      7.563730419664276
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 9738960.0,
+    "gross_amount": 9738960.0,
+    "grouping": "source_single_or_fragment"
+  },
+  {
+    "symbol": "NBIS",
+    "time": "14:54:30",
+    "structure": "单腿买Call",
+    "rows": [
+      {
+        "option_code": "US.NBIS270416C260000",
+        "symbol": "NBIS",
+        "fill_time": "2026-10-21 14:54:30",
+        "fill_timestamp": 1792608870.0,
+        "ticker_type": "BUY",
+        "price": 18.15,
+        "volume": 4950,
+        "turnover": 8984250.0,
+        "option_type": "CALL",
+        "strike_price": 260.0,
+        "strike_time": "2027-04-16",
+        "underlying_price": 172.6,
+        "strategy_type": "SINGLE_LEG",
+        "order_type_list": [
+          "FLOOR"
+        ],
+        "total_volume": 7558,
+        "total_open_interest": 88,
+        "iv": 83.477
+      }
+    ],
+    "sample_n": 200,
+    "sample_start": "2026-04-09 10:48:15",
+    "sample_end": "2026-10-21 15:57:36",
+    "leave_one_out_sample_mean_multiples": [
+      1.338453994528708
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 8984250.0,
+    "gross_amount": 8984250.0,
+    "grouping": "source_single_or_fragment"
+  },
+  {
+    "symbol": "AXON",
+    "time": "15:35:21",
+    "structure": "1:5 Call反向比例价差（推断）",
+    "rows": [
+      {
+        "option_code": "US.AXON270115C470000",
+        "symbol": "AXON",
+        "fill_time": "2026-10-21 15:35:21",
+        "fill_timestamp": 1792611321.0,
+        "ticker_type": "BUY",
+        "price": 26.3,
+        "volume": 4995,
+        "turnover": 13136850.0,
+        "option_type": "CALL",
+        "strike_price": 470.0,
+        "strike_time": "2027-01-15",
+        "underlying_price": 399.2,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "FLOOR"
+        ],
+        "total_volume": 5000,
+        "total_open_interest": 110,
+        "iv": 62.05
+      },
+      {
+        "option_code": "US.AXON270115C400000",
+        "symbol": "AXON",
+        "fill_time": "2026-10-21 15:35:21",
+        "fill_timestamp": 1792611321.0,
+        "ticker_type": "SELL",
+        "price": 48.3,
+        "volume": 999,
+        "turnover": 4825170.0,
+        "option_type": "CALL",
+        "strike_price": 400.0,
+        "strike_time": "2027-01-15",
+        "underlying_price": 399.2,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "FLOOR"
+        ],
+        "total_volume": 1003,
+        "total_open_interest": 96,
+        "iv": 62.884
+      }
+    ],
+    "sample_n": 118,
+    "sample_start": "2026-04-01 13:57:20",
+    "sample_end": "2026-10-21 15:35:21",
+    "leave_one_out_sample_mean_multiples": [
+      23.265119210218508,
+      7.590342157785947
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 8311680.0,
+    "gross_amount": 17962020.0,
+    "grouping": "same_second_MULTI_LEG_inference"
+  },
+  {
+    "symbol": "GOOGL",
+    "time": "10:08:36",
+    "structure": "3腿可见组合（推断）",
+    "rows": [
+      {
+        "option_code": "US.GOOGL270219C350000",
+        "symbol": "GOOGL",
+        "fill_time": "2026-10-21 10:08:36",
+        "fill_timestamp": 1792591716.0,
+        "ticker_type": "BUY",
+        "price": 20.66,
+        "volume": 3000,
+        "turnover": 6198000.0,
+        "option_type": "CALL",
+        "strike_price": 350.0,
+        "strike_time": "2027-02-19",
+        "underlying_price": 331.9,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 3150,
+        "total_open_interest": 4854,
+        "iv": 34.077
+      },
+      {
+        "option_code": "US.GOOGL261120C350000",
+        "symbol": "GOOGL",
+        "fill_time": "2026-10-21 10:08:36",
+        "fill_timestamp": 1792591716.0,
+        "ticker_type": "SELL",
+        "price": 7.6,
+        "volume": 3000,
+        "turnover": 2280000.0,
+        "option_type": "CALL",
+        "strike_price": 350.0,
+        "strike_time": "2026-11-20",
+        "underlying_price": 331.9,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 4013,
+        "total_open_interest": 9710,
+        "iv": 36.736
+      },
+      {
+        "option_code": "US.GOOGL270219C380000",
+        "symbol": "GOOGL",
+        "fill_time": "2026-10-21 10:08:36",
+        "fill_timestamp": 1792591716.0,
+        "ticker_type": "BUY",
+        "price": 11.33,
+        "volume": 3000,
+        "turnover": 3399000.0,
+        "option_type": "CALL",
+        "strike_price": 380.0,
+        "strike_time": "2027-02-19",
+        "underlying_price": 331.9,
+        "strategy_type": "MULTI_LEG",
+        "order_type_list": [
+          "NORMAL"
+        ],
+        "total_volume": 3090,
+        "total_open_interest": 4435,
+        "iv": 33.739
+      }
+    ],
+    "sample_n": 200,
+    "sample_start": "2026-09-10 15:24:25",
+    "sample_end": "2026-10-21 14:38:43",
+    "leave_one_out_sample_mean_multiples": [
+      2.924573949319881,
+      1.0659328598041955,
+      1.5932700147942815
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 7317000.0,
+    "gross_amount": 11877000.0,
+    "grouping": "same_second_MULTI_LEG_inference"
+  },
+  {
+    "symbol": "AMZN",
+    "time": "11:10:15",
+    "structure": "单腿买Call",
+    "rows": [
+      {
+        "option_code": "US.AMZN280616C300000",
+        "symbol": "AMZN",
+        "fill_time": "2026-10-21 11:10:15",
+        "fill_timestamp": 1792595415.0,
+        "ticker_type": "BUY",
+        "price": 43.3,
+        "volume": 1500,
+        "turnover": 6495000.0,
+        "option_type": "CALL",
+        "strike_price": 300.0,
+        "strike_time": "2028-06-16",
+        "underlying_price": 261.48,
+        "strategy_type": "SINGLE_LEG",
+        "order_type_list": [
+          "CROSS"
+        ],
+        "total_volume": 1504,
+        "total_open_interest": 3751,
+        "iv": 37.599
+      }
+    ],
+    "sample_n": 198,
+    "sample_start": "2026-09-30 15:43:28",
+    "sample_end": "2026-10-21 14:45:31",
+    "leave_one_out_sample_mean_multiples": [
+      3.66116840205779
+    ],
+    "selection_version": "amount-net-observed-v1",
+    "amount_rank_value": 6495000.0,
+    "gross_amount": 6495000.0,
+    "grouping": "source_single_or_fragment"
+  }
+]

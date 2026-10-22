@@ -1,0 +1,551 @@
+{
+  "coverage": {
+    "at": "2026-10-22T05:05:31.151663+00:00",
+    "start": "2026-10-21T12:30:00Z",
+    "cutoff": "2026-10-22T00:30:00Z",
+    "total_candidates": 147,
+    "returned": 147,
+    "limit": 200,
+    "complete_within_query": true
+  },
+  "note": "Ticker mention matching nominates a cross-check; it does not confirm the same trade or independent sources.",
+  "selected": {
+    "META": [
+      "x:2113053581418885271",
+      "x:2113037663007592674",
+      "x:2113036640843141303",
+      "news:2db6715d3222e1892dbac85a",
+      "tg:marketfeed/1062130",
+      "tg:marketfeed/1062120",
+      "news:9546ced8e8003aaa1e14c33b",
+      "news:07fdd48f420f6936c963059e",
+      "news:4c364337a8d375bbb3ab4b26",
+      "news:fc1c451fe74ecba6d895128d"
+    ],
+    "ARM": [
+      "x:2112936099135865005"
+    ],
+    "DAL": [],
+    "SPCX": [
+      "news:e37e2ab503fdc3dfb4a46bae",
+      "news:96ff8adfa0405cc42a3977d3",
+      "news:3bfd5a9a208a5b8f2ccd45a2",
+      "news:69ff95bd9a0f9a10a01c2e22",
+      "x:2112946284533346506",
+      "x:2112936099135865005",
+      "x:2112928243225448625",
+      "x:2112910984285405576"
+    ],
+    "TSLA": [
+      "news:96ff8adfa0405cc42a3977d3",
+      "news:3bfd5a9a208a5b8f2ccd45a2",
+      "news:69ff95bd9a0f9a10a01c2e22",
+      "x:2112986649995206736",
+      "x:2112936099135865005",
+      "x:2112928243225448625"
+    ],
+    "CRWV": [
+      "x:2112982226283712925",
+      "x:2112910984285405576"
+    ],
+    "NBIS": [
+      "x:2112991309103542514"
+    ],
+    "AXON": [],
+    "GOOGL": [
+      "x:2113037663007592674",
+      "x:2113036640843141303"
+    ],
+    "AMZN": []
+  },
+  "alerted_candidates_outside_main": [
+    {
+      "symbol": "MU",
+      "alert_ids": [
+        "x:2113041507087495373",
+        "x:2112975552143331782",
+        "x:2112936099135865005",
+        "x:2112928243225448625",
+        "x:2112925082070778073"
+      ]
+    },
+    {
+      "symbol": "NFLX",
+      "alert_ids": [
+        "news:053d36e4e054c986ef7d9949"
+      ]
+    },
+    {
+      "symbol": "NOW",
+      "alert_ids": [
+        "news:6ef9fa17b198ef1559b0319a",
+        "news:053d36e4e054c986ef7d9949",
+        "news:e37e2ab503fdc3dfb4a46bae",
+        "news:ea62a7a5717e9c2c891717d2",
+        "news:81a3ef50373f997e990ab34c",
+        "news:404c04318eacb995e88977a5",
+        "news:56d24b96dd81233ce6546792",
+        "news:5997cf77f4eeee4838b2056f",
+        "news:838124c794c81ee078e4f436",
+        "news:418bf9a0507a4c242440b11e",
+        "news:96ff8adfa0405cc42a3977d3",
+        "news:5a8fcad413766189d2fd39a8",
+        "news:990621188c526967cd236ea3",
+        "news:60b8f856bf7ac821c4068040",
+        "news:a95d31a201e7f2f2714f5153",
+        "news:9546ced8e8003aaa1e14c33b",
+        "news:6f982ec275437587a3083cf8",
+        "news:ae00f62489db95fd29fc4683",
+        "news:4c364337a8d375bbb3ab4b26",
+        "news:a2be892802c1415b75c8a352",
+        "news:39845c2e33e275753f4523e7",
+        "news:edd49d92099220d98cda36d6",
+        "news:03afdc05ad74c39b9378cc86",
+        "x:2112982005474562102",
+        "news:1c3d357d317ca36126a826d7",
+        "x:2112976264869081367",
+        "x:2112975552143331782",
+        "news:238bb085319c4fbd0926a419",
+        "news:c3ab9a6b9c4f5a23b5d5fe8d",
+        "news:dbe7cc94695c98c1dd76ac02",
+        "x:2112957354425872555",
+        "news:d67426b0f8884eba9fe1b25e",
+        "news:21bf838b03cd97c6c1ca45bc",
+        "news:feefe150b3239ccfc88cf9de",
+        "news:82c008b45aa111052130d701",
+        "news:cb862e113c27a2efdba2e069",
+        "news:86e49a63998caf6076ae061d",
+        "x:2112925082070778073",
+        "news:b6856a26b2e5a1f8922ae19b",
+        "news:b2679a2693aa90a2a1388493",
+        "news:78402fd2fe22a490551a29bb",
+        "news:0d80f515a54b8b1bd792ee54",
+        "news:116ab25b47bd4463d66077a6",
+        "news:cdeea79b887f7df1fc9aa1bd",
+        "news:f2858574e9620ebc184f9c03",
+        "news:141a082ce94a75f90ea8edd3",
+        "news:443f77b80ccf038c78f80759"
+      ]
+    },
+    {
+      "symbol": "HAS",
+      "alert_ids": [
+        "news:903929b42167edcf1acd6ab0",
+        "news:33a54d694e2ec9c99da864a6",
+        "news:6ef9fa17b198ef1559b0319a",
+        "news:053d36e4e054c986ef7d9949",
+        "news:e37e2ab503fdc3dfb4a46bae",
+        "news:ea62a7a5717e9c2c891717d2",
+        "news:238deefffa0158da65481356",
+        "news:81a3ef50373f997e990ab34c",
+        "news:404c04318eacb995e88977a5",
+        "news:56d24b96dd81233ce6546792",
+        "news:7d33589399daac745e360ad1",
+        "news:5997cf77f4eeee4838b2056f",
+        "x:2113037663007592674",
+        "x:2113036640843141303",
+        "news:07187c1702367fcf2db86e4e",
+        "news:8b4414823ae55cdd00d98b0f",
+        "news:838124c794c81ee078e4f436",
+        "news:418bf9a0507a4c242440b11e",
+        "news:2db6715d3222e1892dbac85a",
+        "news:96ff8adfa0405cc42a3977d3",
+        "news:b98598510e61efa0fba81340",
+        "news:5a8fcad413766189d2fd39a8",
+        "news:990621188c526967cd236ea3",
+        "news:60b8f856bf7ac821c4068040",
+        "news:b0ae3d1118dd822684e6e136",
+        "news:a5bfb6ad8544c118cdacdd49",
+        "news:a0ad04fa66117785aa398ac6",
+        "news:a3fca97d63a518a132425049",
+        "news:a95d31a201e7f2f2714f5153",
+        "news:69ff95bd9a0f9a10a01c2e22",
+        "news:a0949de254fc535b008fb6d8",
+        "news:79e321a94f61da3a2b9c385f",
+        "news:9546ced8e8003aaa1e14c33b",
+        "news:3d948c1517e0e15a42dd2d23",
+        "news:6f982ec275437587a3083cf8",
+        "news:ae00f62489db95fd29fc4683",
+        "news:b93306982b079be5d36d6cfc",
+        "news:fc37bd6663372ee426ed215b",
+        "news:4c364337a8d375bbb3ab4b26",
+        "x:2112987304352710966",
+        "x:2112986649995206736",
+        "news:a2be892802c1415b75c8a352",
+        "news:39845c2e33e275753f4523e7",
+        "news:edd49d92099220d98cda36d6",
+        "news:8ede984e16eca5c9a6eec2ce",
+        "x:2112982005474562102",
+        "news:1c3d357d317ca36126a826d7",
+        "news:3a4574cb10617d1e749e100d",
+        "x:2112976264869081367",
+        "x:2112975552143331782",
+        "news:eab2570a9328bf6ec70d7c26",
+        "news:adb30e8db11741521a21e448",
+        "news:238bb085319c4fbd0926a419",
+        "news:c3ab9a6b9c4f5a23b5d5fe8d",
+        "news:47b5252599d9c51c148d2d85",
+        "news:8863325f2fff61d44ea1b7bd",
+        "news:dbe7cc94695c98c1dd76ac02",
+        "x:2112957354425872555",
+        "news:7cabd89f6c117559fe414f4e",
+        "news:8f0939afcb61f229b32d8682",
+        "news:dad122f886dcdbada869addd",
+        "news:21bf838b03cd97c6c1ca45bc",
+        "news:1fa3be3e99ab8f7932841a3a",
+        "news:f6f3bcf7714693c88a1a05c0",
+        "news:9439e1fbb2edc079205196a0",
+        "news:68f134a6b92ab84afe7d0675",
+        "news:feefe150b3239ccfc88cf9de",
+        "news:82c008b45aa111052130d701",
+        "news:cb862e113c27a2efdba2e069",
+        "news:86e49a63998caf6076ae061d",
+        "news:7a21b4320a18d919d903cb81",
+        "news:98d6336844b7fbe2084a1412",
+        "news:f1abebffb88be6a52669782c",
+        "news:b2679a2693aa90a2a1388493",
+        "news:78402fd2fe22a490551a29bb",
+        "news:a15c140f9e5886e10422899d",
+        "news:e2609e7ceb22b2a6dd72397f",
+        "news:a33c36a4460583af315ad2ef",
+        "news:9845b115b041f7fb812320dc",
+        "news:0d80f515a54b8b1bd792ee54",
+        "news:5ef2392cc9724521a7f07fa4",
+        "news:116ab25b47bd4463d66077a6",
+        "news:4a453f3e4286407a71c3f786",
+        "news:cdeea79b887f7df1fc9aa1bd",
+        "news:f2858574e9620ebc184f9c03",
+        "news:60d39aebe35e22592a513973",
+        "news:8b0c650166c6caaa9ae70275",
+        "news:141a082ce94a75f90ea8edd3",
+        "news:fc1c451fe74ecba6d895128d",
+        "news:65de5434b4a56cae6f28fa8f",
+        "news:e78d821745681412292e160f"
+      ]
+    },
+    {
+      "symbol": "F",
+      "alert_ids": [
+        "news:feefe150b3239ccfc88cf9de"
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "alert_ids": [
+        "x:2113041507087495373",
+        "x:2112975552143331782",
+        "x:2112925082070778073"
+      ]
+    },
+    {
+      "symbol": "AMAT",
+      "alert_ids": [
+        "x:2113041507087495373"
+      ]
+    },
+    {
+      "symbol": "DOW",
+      "alert_ids": [
+        "news:96ff8adfa0405cc42a3977d3",
+        "x:2112980382509334893"
+      ]
+    },
+    {
+      "symbol": "MS",
+      "alert_ids": [
+        "news:5997cf77f4eeee4838b2056f",
+        "news:60b8f856bf7ac821c4068040"
+      ]
+    },
+    {
+      "symbol": "IBM",
+      "alert_ids": [
+        "news:fc1c451fe74ecba6d895128d"
+      ]
+    },
+    {
+      "symbol": "APP",
+      "alert_ids": [
+        "x:2113053581418885271",
+        "news:9546ced8e8003aaa1e14c33b"
+      ]
+    },
+    {
+      "symbol": "DECK",
+      "alert_ids": [
+        "news:cdeea79b887f7df1fc9aa1bd",
+        "news:a28f35940980ac02ab509823"
+      ]
+    },
+    {
+      "symbol": "PSX",
+      "alert_ids": [
+        "x:2112976264869081367",
+        "x:2112975552143331782"
+      ]
+    },
+    {
+      "symbol": "ADBE",
+      "alert_ids": [
+        "x:2113037663007592674",
+        "x:2113036640843141303"
+      ]
+    },
+    {
+      "symbol": "NXPI",
+      "alert_ids": [
+        "x:2113042249256690035"
+      ]
+    },
+    {
+      "symbol": "MSCI",
+      "alert_ids": [
+        "news:7d33589399daac745e360ad1",
+        "news:60ed2cb28a647cb4bd975ce6"
+      ]
+    },
+    {
+      "symbol": "ECHO",
+      "alert_ids": [
+        "news:a2be892802c1415b75c8a352",
+        "news:86e49a63998caf6076ae061d"
+      ]
+    },
+    {
+      "symbol": "CME",
+      "alert_ids": [
+        "news:788b6f016d55666320fe2f1e"
+      ]
+    },
+    {
+      "symbol": "LITE",
+      "alert_ids": [
+        "x:2112975552143331782",
+        "x:2112925082070778073"
+      ]
+    },
+    {
+      "symbol": "FIX",
+      "alert_ids": [
+        "news:eab2570a9328bf6ec70d7c26",
+        "news:0d80f515a54b8b1bd792ee54",
+        "tg:marketfeed/1061828"
+      ]
+    },
+    {
+      "symbol": "WELL",
+      "alert_ids": [
+        "news:56d24b96dd81233ce6546792",
+        "news:5a8fcad413766189d2fd39a8",
+        "news:a0949de254fc535b008fb6d8",
+        "news:3d948c1517e0e15a42dd2d23",
+        "news:6f982ec275437587a3083cf8",
+        "news:788b6f016d55666320fe2f1e",
+        "news:a2be892802c1415b75c8a352",
+        "news:03afdc05ad74c39b9378cc86",
+        "news:8f0939afcb61f229b32d8682",
+        "news:9439e1fbb2edc079205196a0",
+        "news:5e32c14dbee02a24340d6bce",
+        "x:2112936099135865005",
+        "news:cb862e113c27a2efdba2e069",
+        "news:86e49a63998caf6076ae061d",
+        "news:78402fd2fe22a490551a29bb",
+        "news:a33c36a4460583af315ad2ef",
+        "news:8b0c650166c6caaa9ae70275",
+        "news:fc1c451fe74ecba6d895128d"
+      ]
+    },
+    {
+      "symbol": "XYZ",
+      "alert_ids": [
+        "news:6ef9fa17b198ef1559b0319a"
+      ]
+    },
+    {
+      "symbol": "EL",
+      "alert_ids": [
+        "news:ea62a7a5717e9c2c891717d2",
+        "news:838124c794c81ee078e4f436",
+        "news:a95d31a201e7f2f2714f5153",
+        "news:5ef2392cc9724521a7f07fa4"
+      ]
+    },
+    {
+      "symbol": "MAR",
+      "alert_ids": [
+        "x:2112925082070778073"
+      ]
+    },
+    {
+      "symbol": "A",
+      "alert_ids": [
+        "news:903929b42167edcf1acd6ab0",
+        "news:33a54d694e2ec9c99da864a6",
+        "news:6ef9fa17b198ef1559b0319a",
+        "news:053d36e4e054c986ef7d9949",
+        "news:e37e2ab503fdc3dfb4a46bae",
+        "x:2113053581418885271",
+        "news:ea62a7a5717e9c2c891717d2",
+        "news:334383a9250dc1d1c764d44e",
+        "news:238deefffa0158da65481356",
+        "news:81a3ef50373f997e990ab34c",
+        "news:404c04318eacb995e88977a5",
+        "news:56d24b96dd81233ce6546792",
+        "news:7d33589399daac745e360ad1",
+        "x:2113042249256690035",
+        "x:2113041507087495373",
+        "news:5997cf77f4eeee4838b2056f",
+        "x:2113037663007592674",
+        "x:2113036640843141303",
+        "x:2113035860744769916",
+        "x:2113035349366820938",
+        "news:922507b74aeccf859c47caf3",
+        "news:07187c1702367fcf2db86e4e",
+        "news:8b4414823ae55cdd00d98b0f",
+        "news:af145d399acb4ff47f88ad40",
+        "news:838124c794c81ee078e4f436",
+        "news:418bf9a0507a4c242440b11e",
+        "news:2db6715d3222e1892dbac85a",
+        "news:96ff8adfa0405cc42a3977d3",
+        "news:b98598510e61efa0fba81340",
+        "news:5a8fcad413766189d2fd39a8",
+        "news:990621188c526967cd236ea3",
+        "news:60b8f856bf7ac821c4068040",
+        "news:b0ae3d1118dd822684e6e136",
+        "news:a5bfb6ad8544c118cdacdd49",
+        "news:a0ad04fa66117785aa398ac6",
+        "tg:marketfeed/1062130",
+        "tg:marketfeed/1062119",
+        "tg:marketfeed/1062120",
+        "tg:marketfeed/1062117",
+        "news:a3fca97d63a518a132425049",
+        "news:a95d31a201e7f2f2714f5153",
+        "news:3bfd5a9a208a5b8f2ccd45a2",
+        "news:69ff95bd9a0f9a10a01c2e22",
+        "news:a0949de254fc535b008fb6d8",
+        "news:79e321a94f61da3a2b9c385f",
+        "news:9546ced8e8003aaa1e14c33b",
+        "news:3d948c1517e0e15a42dd2d23",
+        "news:6f982ec275437587a3083cf8",
+        "news:ae00f62489db95fd29fc4683",
+        "news:07fdd48f420f6936c963059e",
+        "x:2112991309103542514",
+        "news:b93306982b079be5d36d6cfc",
+        "news:788b6f016d55666320fe2f1e",
+        "news:fc37bd6663372ee426ed215b",
+        "news:4c364337a8d375bbb3ab4b26",
+        "x:2112986649995206736",
+        "news:a2be892802c1415b75c8a352",
+        "news:31d85131447a7005864c98d2",
+        "news:39845c2e33e275753f4523e7",
+        "news:edd49d92099220d98cda36d6",
+        "news:03afdc05ad74c39b9378cc86",
+        "news:8ede984e16eca5c9a6eec2ce",
+        "x:2112982226283712925",
+        "x:2112982005474562102",
+        "news:1c3d357d317ca36126a826d7",
+        "x:2112980382509334893",
+        "news:3a4574cb10617d1e749e100d",
+        "x:2112976264869081367",
+        "x:2112975552143331782",
+        "news:ca1ea673edb3a2be4cb0b238",
+        "news:cfb97514a9ffcb06a2f20010",
+        "tg:marketfeed/1061978",
+        "tg:marketfeed/1061976",
+        "news:eab2570a9328bf6ec70d7c26",
+        "news:adb30e8db11741521a21e448",
+        "news:238bb085319c4fbd0926a419",
+        "x:2112966061284851739",
+        "news:c3ab9a6b9c4f5a23b5d5fe8d",
+        "tg:marketfeed/1061972",
+        "news:47b5252599d9c51c148d2d85",
+        "news:8ae3004266a8f93b03bb2112",
+        "news:60ed2cb28a647cb4bd975ce6",
+        "news:8863325f2fff61d44ea1b7bd",
+        "news:dbe7cc94695c98c1dd76ac02",
+        "x:2112957354425872555",
+        "news:7cabd89f6c117559fe414f4e",
+        "news:8f0939afcb61f229b32d8682",
+        "news:dad122f886dcdbada869addd",
+        "news:abebc0f1a88b1646cebbb439",
+        "news:d67426b0f8884eba9fe1b25e",
+        "news:21bf838b03cd97c6c1ca45bc",
+        "news:43cdaf5134442a3176502002",
+        "x:2112945154458050711",
+        "news:1fa3be3e99ab8f7932841a3a",
+        "news:f6f3bcf7714693c88a1a05c0",
+        "news:9439e1fbb2edc079205196a0",
+        "news:5e32c14dbee02a24340d6bce",
+        "news:68f134a6b92ab84afe7d0675",
+        "x:2112936099135865005",
+        "news:feefe150b3239ccfc88cf9de",
+        "x:2112929402270990572",
+        "news:82c008b45aa111052130d701",
+        "news:cb862e113c27a2efdba2e069",
+        "news:86e49a63998caf6076ae061d",
+        "x:2112928243225448625",
+        "x:2112925082070778073",
+        "news:7a21b4320a18d919d903cb81",
+        "news:98d6336844b7fbe2084a1412",
+        "x:2112921864305574214",
+        "news:f1abebffb88be6a52669782c",
+        "news:b6856a26b2e5a1f8922ae19b",
+        "news:b2679a2693aa90a2a1388493",
+        "news:78402fd2fe22a490551a29bb",
+        "news:a15c140f9e5886e10422899d",
+        "news:e2609e7ceb22b2a6dd72397f",
+        "news:a33c36a4460583af315ad2ef",
+        "news:9845b115b041f7fb812320dc",
+        "x:2112910984285405576",
+        "news:0d80f515a54b8b1bd792ee54",
+        "news:5ef2392cc9724521a7f07fa4",
+        "news:116ab25b47bd4463d66077a6",
+        "news:4a453f3e4286407a71c3f786",
+        "news:912ce024427c7866546b3ef7",
+        "news:cdeea79b887f7df1fc9aa1bd",
+        "news:a28f35940980ac02ab509823",
+        "news:f2858574e9620ebc184f9c03",
+        "news:60d39aebe35e22592a513973",
+        "news:8b0c650166c6caaa9ae70275",
+        "news:141a082ce94a75f90ea8edd3",
+        "news:443f77b80ccf038c78f80759",
+        "news:fc1c451fe74ecba6d895128d",
+        "news:65de5434b4a56cae6f28fa8f",
+        "news:e78d821745681412292e160f"
+      ]
+    },
+    {
+      "symbol": "CF",
+      "alert_ids": [
+        "x:2112980382509334893"
+      ]
+    },
+    {
+      "symbol": "LIN",
+      "alert_ids": [
+        "tg:marketfeed/1062129",
+        "news:fc1c451fe74ecba6d895128d"
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "alert_ids": [
+        "news:96ff8adfa0405cc42a3977d3",
+        "x:2112975552143331782",
+        "x:2112936099135865005",
+        "x:2112928243225448625",
+        "x:2112925082070778073"
+      ]
+    },
+    {
+      "symbol": "FAST",
+      "alert_ids": [
+        "news:7d33589399daac745e360ad1",
+        "x:2113042249256690035",
+        "news:edd49d92099220d98cda36d6",
+        "news:cb862e113c27a2efdba2e069",
+        "news:fc1c451fe74ecba6d895128d"
+      ]
+    }
+  ]
+}

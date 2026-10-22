@@ -1,0 +1,51 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data:; frame-src 'self'; object-src 'self'; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'"><meta name="viewport" content="width=device-width,initial-scale=1"><title>数据快照</title><style>body{margin:24px auto;padding:0 20px;max-width:1100px;font:16px/1.7 system-ui,sans-serif;color:#263749}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f4f6f8;padding:20px;border-radius:10px}a{color:#235f91}</style></head><body><a href="report.html">返回日报</a><h1>verification</h1><p>报告生成时保存的数据快照。</p><pre>{
+  &quot;checks&quot;: {
+    &quot;local_links&quot;: true,
+    &quot;trade_day&quot;: true,
+    &quot;sector_coverage&quot;: true,
+    &quot;rank_scope_disjoint&quot;: true,
+    &quot;ranking_count&quot;: true,
+    &quot;option_members&quot;: true,
+    &quot;option_trade_dates&quot;: true,
+    &quot;option_amounts&quot;: true,
+    &quot;selected_curves&quot;: true,
+    &quot;curve_dates&quot;: true,
+    &quot;curve_finite&quot;: true,
+    &quot;prediction_cutoff&quot;: true,
+    &quot;archive_rows&quot;: true,
+    &quot;archive_idempotent&quot;: true,
+    &quot;yesterday_unchanged&quot;: true,
+    &quot;automatic_amount_order&quot;: true,
+    &quot;nbis_selected&quot;: true,
+    &quot;no_manual_selections&quot;: true,
+    &quot;news_count&quot;: true,
+    &quot;parameters_folded&quot;: true,
+    &quot;btc_fixed&quot;: true
+  },
+  &quot;errors&quot;: [],
+  &quot;manual_checks&quot;: [
+    &quot;180K科技日报与北美小结均实际提取，不将截图中早段TSLA/IBM盘后涨幅沿用到最后&quot;,
+    &quot;180K群聊Meta判断与融资PDF条款分开，未声称已完成融资&quot;,
+    &quot;109页Meta法律文件仅重点核对前12页，未宣称通读全部附件&quot;,
+    &quot;2030FY与路透两篇公众号正文已读；旧10月14日VicTalk排除&quot;,
+    &quot;国债平台官方日频与新闻尾盘数值分开&quot;,
+    &quot;行情图无纳指综合/道指，SP500榜排除NQ100成员&quot;,
+    &quot;本期12条新闻不靠常规弱数据凑数；NewsNow仅为补漏&quot;,
+    &quot;AXON比率1:5按各腿真实张数计算PL&quot;
+  ],
+  &quot;snapshot_at&quot;: &quot;2026-10-22T01:47:56.296423+00:00&quot;,
+  &quot;sizes&quot;: {
+    &quot;discovery.json&quot;: 1591957,
+    &quot;content.json&quot;: 247125,
+    &quot;options.json&quot;: 436223,
+    &quot;report.html&quot;: 159304,
+    &quot;sources.html&quot;: 278494
+  },
+  &quot;production_archive_new_records&quot;: 6,
+  &quot;production_read_review_changes&quot;: 0,
+  &quot;new_scheduler&quot;: false,
+  &quot;model_tokens_cost&quot;: &quot;未测；未另行调用模型入口&quot;,
+  &quot;pdf_text_extraction&quot;: &quot;本地PDFKit/Vision；科技日报1页扫描、融资文件109页有文字；北美小结2张图按需OCR&quot;,
+  &quot;market_png_visual&quot;: &quot;已检查2200×1650行情图，无裁切，新增BTC，图中仅保留数值/标题&quot;,
+  &quot;html_browser_visual&quot;: &quot;已验收日报及全屏阅读；本轮自动筛选表另作核对&quot;
+}</pre></body></html>

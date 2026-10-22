@@ -1,0 +1,72 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data:; frame-src 'self'; object-src 'self'; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'"><meta name="viewport" content="width=device-width,initial-scale=1"><title>数据快照</title><style>body{margin:24px auto;padding:0 20px;max-width:1100px;font:16px/1.7 system-ui,sans-serif;color:#263749}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f4f6f8;padding:20px;border-radius:10px}a{color:#235f91}</style></head><body><a href="report.html">返回日报</a><h1>verification</h1><p>报告生成时保存的数据快照。</p><pre>{
+  &quot;version&quot;: &quot;v3&quot;,
+  &quot;checks&quot;: {
+    &quot;links_valid&quot;: true,
+    &quot;no_dow_in_editorial&quot;: true,
+    &quot;sp500_coverage&quot;: true,
+    &quot;nq100_coverage&quot;: true,
+    &quot;regular_rankings&quot;: true,
+    &quot;no_cross_session_ranking&quot;: true,
+    &quot;amounts_verified&quot;: true,
+    &quot;option_only_trade_day&quot;: true,
+    &quot;prediction_pre_cutoff&quot;: true,
+    &quot;option_members_only&quot;: true,
+    &quot;combination_amounts&quot;: true,
+    &quot;sample_multiples&quot;: true,
+    &quot;news_at_least_10&quot;: true,
+    &quot;reading_time&quot;: true,
+    &quot;editorial_labels&quot;: true,
+    &quot;ranking_disjoint&quot;: true,
+    &quot;no_composite_in_board&quot;: true,
+    &quot;eleven_sectors&quot;: true,
+    &quot;archive_records&quot;: true,
+    &quot;archive_idempotency&quot;: true,
+    &quot;fixed_close_lines&quot;: true
+  },
+  &quot;link_errors&quot;: [],
+  &quot;manual_fact_checks&quot;: [
+    &quot;主要指数与宏观数值来自平台日线/行情缓存，而非新闻内旧价格；Gold与WTI前结算字段单列不算缺失日变动&quot;,
+    &quot;NQ100优先，SP500排除全部NQ100成分后有效417/417；按同交易日、正价格及基准一致性校验，各取上涨5和下跌5&quot;,
+    &quot;股指日高与收盘的回吐计算，不当作单条消息发布前后的精确因果幅度&quot;,
+    &quot;SPCX/CRWV/NBIS/SMCI/NFLX全部采用平台10月20日盘后栏，变化相对常规收盘&quot;,
+    &quot;Polymarket概率采用截止08:30前最后历史点，实际为08:00附近；不使用11:14当前值冒充隔夜&quot;,
+    &quot;期权成交金额抽查合约价×张数×100，单位USD；只显示原始买卖标记，开平未知，多腿不拆方向&quot;,
+    &quot;DeepSeek政策7月签发先前已生效、本周公开；新闻增量为公开信息和中方回应&quot;,
+    &quot;国家数据集团采用平台国资委公告转述，未补证券代码；DeepInfer采用平台彭博正文&quot;,
+    &quot;推荐阅读每份一句导读，来源为原有长文/投研/转写；无须凑来源配额&quot;
+  ],
+  &quot;selection_method&quot;: {
+    &quot;scope&quot;: &quot;本期资讯时间窗＋10月20日白天重大补漏&quot;,
+    &quot;first_pass&quot;: &quot;标题、主体、已有摘要、版本与来源元数据&quot;,
+    &quot;second_pass&quot;: &quot;重点变化/关注标的/催化剂/反证定向补漏，同源去重&quot;,
+    &quot;deep_read&quot;: &quot;少量选中正文，复用v1已核对摘要与OCR&quot;,
+    &quot;wechat&quot;: &quot;223条元数据；65条有界文字/附件描述候选，未全量识图或重读附件&quot;,
+    &quot;options&quot;: &quot;518个成分标的中510份已有缓存，提取664条当日异动腿；不新增采集、不分析完整期权链&quot;
+  },
+  &quot;image_visual_review&quot;: &quot;2200×1980 PNG包含四个主要指数、11行业ETF代理与去重后的四组Top5，已复核&quot;,
+  &quot;option_v3&quot;: {
+    &quot;members&quot;: 518,
+    &quot;caches&quot;: 510,
+    &quot;day_legs&quot;: 664,
+    &quot;extraction_seconds&quot;: 2.835127125028521,
+    &quot;full_trade_mean&quot;: &quot;未测；缺少全量逐笔笔数，仅计算已筛异动样本均值倍数&quot;,
+    &quot;reading_time&quot;: &quot;按已存正文粗估并以5或10分钟显示，非实测&quot;
+  },
+  &quot;production_writes&quot;: {
+    &quot;selected_option_records&quot;: 7,
+    &quot;existing_read_review_changes&quot;: 0
+  },
+  &quot;model_cost_tokens_latency&quot;: &quot;未测；未另行调用生产模型入口&quot;,
+  &quot;hashes&quot;: {
+    &quot;report.html&quot;: &quot;c7b737ccec8fe65dfc74f4e63df1cb48e419a3f36a97933b650830d37c160c2b&quot;,
+    &quot;market-board.png&quot;: &quot;15433c5d4a2d03ba8acd4b5b2824d8a6562a6b0062ce8efe36142ad988ba4c91&quot;,
+    &quot;market-board-data.json&quot;: &quot;2d77315980fe95b80abe6235c221a3a8f11a05c7df9b1d8708e7b7ae97aab095&quot;,
+    &quot;option-flow-selected.json&quot;: &quot;089c2049e311e9e96907397318a17c9aabca94013706a77a0d71a9ac211ce827&quot;,
+    &quot;v2-derived.json&quot;: &quot;d487819478feef83f02393eff59a7d6ffcbfd664d003ee59b196cc9309ef6305&quot;,
+    &quot;v2-sources.html&quot;: &quot;69499eb576457665ace4d97ec65bb5e6f293fcdc46e60bd6fe66f289aa649790&quot;,
+    &quot;manifest.json&quot;: &quot;7aeca9c2c38864e9bfe1e8fe55434792e64af979e88b4c39d61a439d8e306b29&quot;,
+    &quot;option-structures-v3.json&quot;: &quot;954462ef825b988cb47ebe09c9a46e798aba045272c63c97ec4d1d44f6b955a8&quot;,
+    &quot;v3-options.json&quot;: &quot;1b890636e834e3ad8409713f210462524a621a73f951390a91d8688ef1b7a412&quot;,
+    &quot;option-pl-curves.json&quot;: &quot;49cc64103fe3832bbe27dcff8ad6c0cc510785f9a1e112b8dead04aba0594df1&quot;
+  }
+}</pre></body></html>
