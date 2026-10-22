@@ -18,7 +18,7 @@
     "automatic_amount_order": true,
     "nbis_selected": true,
     "no_manual_selections": true,
-    "news_count": true,
+    "excluded_news_removed": true,
     "parameters_folded": true,
     "btc_fixed": true
   },
@@ -30,7 +30,7 @@
     "2030FY与路透两篇公众号正文已读；旧10月14日VicTalk排除",
     "国债平台官方日频与新闻尾盘数值分开",
     "行情图无纳指综合/道指，SP500榜排除NQ100成员",
-    "本期12条新闻不靠常规弱数据凑数；NewsNow仅为补漏",
+    "本期8条新闻，用户排除四条弱相关内容，不为达到10条补入弱新闻；NewsNow仅为补漏",
     "AXON比率1:5按各腿真实张数计算PL"
   ],
   "snapshot_at": "2026-10-22T01:47:56.296423+00:00",
@@ -38,7 +38,7 @@
     "discovery.json": 1591957,
     "content.json": 247125,
     "options.json": 436223,
-    "report.html": 159304,
+    "report.html": 158148,
     "sources.html": 278494
   },
   "production_archive_new_records": 6,
